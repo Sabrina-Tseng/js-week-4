@@ -88,34 +88,34 @@ movie2.exportInfo();
 movie3.exportInfo();
 
 
-// console.log( `\n====== Homework ======` );
+console.log( `\n====== Homework ======` );
 
-// const catBot = {
-//     name: "My cat is called SUSU.",
-//     SUSU: "In Chinese, SUSU means crispy cake.",
-//     age: "He is about 5 years old.",
-//     gender: "He is a boy.",
-//     weight: "He is currently 7kg! A heavy boy.",
+const catBot = {
+    name: "My cat is called SUSU.",
+    SUSU: "In Chinese, SUSU means crispy cake.",
+    age: "He is about 5 years old.",
+    gender: "He is a boy.",
+    weight: "He is currently 7kg! A heavy boy.",
 
-//     answer: function(){
-//         // console.log(Object.keys(this))
+    answer: function(){
+        // console.log(Object.keys(this))
 
-//         let question = prompt('Ask about my cat');
+        let question = prompt('Ask about my cat');
 
-//         for (let keyWord of Object.keys(this)) {
-//             // console.log(keyWord);
+        for (let keyWord of Object.keys(this)) {
+            // console.log(keyWord);
 
-//             // if (question.includes(keyWord)) { 
-//             //     return catBot[keyWord];
-//             // }
+            // if (question.includes(keyWord)) { 
+            //     return catBot[keyWord];
+            // }
 
-//             let regEx = new RegExp(keyWord, "i");
+            let regEx = new RegExp(keyWord, "i");
 
-//             if ( question.match(regEx) ) { 
-//                 return catBot[keyWord];
-//             }
-//         }
-//     }
-// }
+            if ( question.match(regEx) ) { 
+                return catBot[keyWord];
+            }
+        }
+    }
+}
 
-// console.log(catBot.answer());
+console.log(catBot.answer());
