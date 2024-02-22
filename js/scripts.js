@@ -88,6 +88,7 @@ movie2.exportInfo();
 movie3.exportInfo();
 
 
+
 console.log( `\n====== Homework ======` );
 
 const catBot = {
