@@ -115,6 +115,8 @@ const catBot = {
                 return catBot[keyWord];
             }
         }
+
+        return ("ask something else");
     }
 }
 
